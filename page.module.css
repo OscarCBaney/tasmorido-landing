@@ -1,0 +1,250 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+.logo {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.hero {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.heroContent h2 {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(135deg, #e94560 0%, #ff6b7a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroContent p {
+  font-size: 1.1rem;
+  color: #aaaaaa;
+  margin: 1rem 0;
+}
+
+.subtitle {
+  font-size: 0.95rem !important;
+  color: #888888 !important;
+}
+
+.features {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature {
+  background: rgba(42, 42, 62, 0.8);
+  border: 1px solid rgba(233, 69, 96, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature:hover {
+  border-color: rgba(233, 69, 96, 0.5);
+  transform: translateY(-4px);
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+}
+
+.feature p {
+  color: #aaaaaa;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.cta {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 3rem 1.5rem;
+  background: rgba(42, 42, 62, 0.6);
+  border: 2px solid rgba(233, 69, 96, 0.3);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+}
+
+.cta p {
+  color: #aaaaaa;
+  margin: 0.5rem 0 2rem 0;
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form button {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  border: none;
+}
+
+.form input {
+  flex: 1;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(233, 69, 96, 0.3);
+}
+
+.form input::placeholder {
+  color: #666666;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #e94560;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.form button {
+  background: #e94560;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background: #ff6b7a;
+  transform: scale(1.02);
+}
+
+.form button:active {
+  transform: scale(0.98);
+}
+
+.success {
+  color: #2ecc71;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding: 3rem 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+.footerContent {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.footerSection h4 {
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.footerSection p {
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+}
+
+.footerSection a {
+  color: #e94560;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerSection a:hover {
+  color: #ff6b7a;
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  color: #666666;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .heroContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .heroContent p {
+    font-size: 0.95rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    padding: 2rem 1rem;
+  }
+
+  .cta h2 {
+    font-size: 1.4rem;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .form input {
+    min-width: unset;
+  }
+}
