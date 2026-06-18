@@ -128,7 +128,7 @@ export default function PrivacyPolicy() {
         </ul>
 
         <h2>8. Menores de Edad</h2>
-        <p>La App no está dirigida a menores de 13 años (o la edad mínima aplicable según tu país). No recopilamos intencionalmente información de menores de edad.</p>
+        <p>La App no está dirigida a menores de 18 años. No recopilamos intencionalmente información de menores de edad. Si descubrimos que un menor de edad ha proporcionado información a través de la App, tomaremos medidas para eliminar dicha información.</p>
 
         <h2>9. Cambios a esta Política</h2>
         <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Notificaremos cambios significativos a través de la App o actualizando la fecha en la parte superior de este documento.</p>
