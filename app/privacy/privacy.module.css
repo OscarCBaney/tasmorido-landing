@@ -1,0 +1,149 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+.logo {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.backLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #e94560;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.backLink:hover {
+  color: #ff6b7a;
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+.updated {
+  color: #888888;
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+.content h2 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin: 2.5rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+.content h3 {
+  font-size: 1.1rem;
+  color: #ff6b7a;
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.content p {
+  color: #cccccc;
+  margin: 0.75rem 0;
+  font-size: 0.98rem;
+}
+
+.content ul {
+  color: #cccccc;
+  font-size: 0.98rem;
+  padding-left: 1.4rem;
+  margin: 0.75rem 0;
+}
+
+.content li {
+  margin: 0.5rem 0;
+}
+
+.content strong {
+  color: #ffffff;
+}
+
+.content a {
+  color: #e94560;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.content a:hover {
+  color: #ff6b7a;
+  text-decoration: underline;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid rgba(233, 69, 96, 0.2);
+  color: #cccccc;
+  vertical-align: top;
+}
+
+.table th {
+  background: rgba(233, 69, 96, 0.1);
+  color: #ffffff;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(233, 69, 96, 0.2);
+  margin: 2.5rem 0;
+}
+
+.note {
+  color: #888888;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  .table {
+    font-size: 0.82rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+  }
+}
