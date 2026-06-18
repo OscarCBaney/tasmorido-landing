@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '¿Tas Morido? - Dead Man\'s Switch Safety App',
-  description: 'A dead man\'s switch app for LatAm. Check in regularly, and if you miss a deadline, we\'ll alert your emergency contact.',
-  keywords: ['safety', 'check-in', 'emergency', 'alert', 'latam'],
+  title: '¿Tas Morido? - App de reporte de seguridad',
+  description: 'Una app de seguridad para México y Latinoamérica. Reporta regularmente que estás bien, y si no lo haces, alertaremos automáticamente a tu contacto de emergencia vía WhatsApp.',
+  keywords: ['seguridad', 'check-in', 'emergencia', 'alerta', 'latam', 'whatsapp', 'mexico'],
 };
 
 export const viewport: Viewport = {
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body>{children}</body>
     </html>
   );
