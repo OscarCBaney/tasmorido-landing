@@ -35,7 +35,7 @@ export default function Home() {
             Reporta que estás bien periódicamente, y si no lo haces a tiempo, alertaremos automáticamente a tu contacto de emergencia vía WhatsApp.
           </p>
           <p className={styles.subtitle}>
-            Perfecto para viajeros, personas viviendo solas, y cualquiera que busque un poco de tranquilidad.
+            Perfecto para viajeros, los que viven solos, y aquellos que buscan un poco de tranquilidad.
           </p>
         </div>
       </section>
@@ -50,18 +50,18 @@ export default function Home() {
         <div className={styles.feature}>
           <div className={styles.featureIcon}>📱</div>
           <h3>Configuración Sencilla</h3>
-          <p>Elige un contacto de emergencia. Define cada cuánto te recordaremos reportarte. Listo.</p>
+          <p>Elige un contacto de emergencia. <br />Define cada cuánto te recordaremos reportarte. <br />Listo.</p>
         </div>
         <div className={styles.feature}>
           <div className={styles.featureIcon}>🚨</div>
           <h3>Alertas Instantáneas</h3>
-          <p>Enviaremos un mensaje de WhatsApp a tu contacto si no te reportas a tiempo. Automático y confiable.</p>
+          <p>Enviaremos un mensaje de WhatsApp a tu contacto si no te reportas a tiempo. <br />Automático y confiable.</p>
         </div>
       </section>
 
       {/* CTA */}
       <section className={styles.cta}>
-        <h2>Próximamente en Google Play. Seguido de lanzamiento en AppStore.</h2>
+        <h2>Próximamente en Google Play y Apple App Store.</h2>
         <p>¿Tas Morido? App está por llegar a Android. Recibe un aviso cuando esté disponible.</p>
         
         <form className={styles.form} onSubmit={handleSubmit}>
