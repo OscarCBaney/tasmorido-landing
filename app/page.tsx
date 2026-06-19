@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* CTA */}
       <section className={styles.cta}>
-        <h2>Próximamente en Google Play y Apple App Store.</h2>
+        <h2>Próximamente en Google Play y App Store.</h2>
         <p>¿Tas Morido? App está por llegar a Android. Recibe un aviso cuando esté disponible.</p>
         
         <form className={styles.form} onSubmit={handleSubmit}>
